@@ -99,7 +99,6 @@
         "seasonPassAutoRenewalRemovalBannerMsg": "Yes! You removed auto-renewal for the next season of your [displayName]",
         "seasonPassAutoRenewalAdditionBannerMsg": "Yes! You added auto-renewal for the next season of your [displayName]",
         "autoRenewOffSeasonRemoveMsg": "Yes! You removed auto-renewal for the next season of your [displayName]. Remember, when the [displayName] next season starts, you will need to add it manually.",
-
         "txtPackageChangeOnPause": "[[PACKAGE]] [[addOn]] will be available when your service pause ends on [[nextBillingDateTemp]].",
         "appleMLSAutoRenewOffSeasonRemoveMsg": "Yes! You removed auto-renewal for the next season of your MLS Season Pass. Remember, when the MLS Season Pass next season starts, you will need to add it manually.",
         "txtEligibleForCredit": "You may be eligible for credit on extras*.",
@@ -464,7 +463,7 @@
             "description": "<ul><li>Includes Sports Pack.</li><li>Includes SundanceTV, commercial-free movie channels, and STARZ ENCORE channels.</li></ul>"
           },
           "MLS_BOLTON": {
-            "image": "/dtvassets/sales/directv/logos/add-ons/appletv_mls-k.svg",
+            "image": "www.dtv.com/mls/rebranding-061.svg",
             "tabType": "Sports"
           },
           "BASE-TODOYMAS-201802": {
@@ -646,7 +645,7 @@
               "txtDisclaimer2": ""
             }
           },
-         "trialMsgPart1": "You can stream [[addonOnDisplayName]] after your free trial on [[freeTrialEndDate]].",
+          "trialMsgPart1": "You can stream [[addonOnDisplayName]] after your free trial on [[freeTrialEndDate]].",
           "trialMsgPart2": "If you add [[addonOnDisplayName]] today, you won’t be charged until then.",
           "ctaContinue": "Continue to add",
           "txtRemove": "Remove",
@@ -678,7 +677,7 @@
               "txtDisclaimer1": "PLEASE NOTE:",
               "txtDisclaimer2": "<br/>Already have Peacock Premium? You’ll need to cancel your current account to get the discounted price for DIRECTV. Visit the <a href=\"https://www.peacocktv.com/help/article/directv\" target=\"_blank\">Peacock Help Center</a> for additional details."
             }
-           },
+          },
           "BOLT-APPLETV-202501": {
             "addContent": {
               "txtDisclaimer3": "<br />Existing Apple TV customers subscribing to Apple TV through DIRECTV must activate the new service to migrate billing to DIRECTV. You will receive separate information via email on how to activate your account.",
@@ -708,7 +707,7 @@
               "txtRemoveContent": "Once you cancel, you’ll still be able to watch Netflix until [[DATE]]. After that, you’ll no longer be able to watch and you won’t be billed for Netflix again."
             }
           },
-          "BOLT-MVPX-201910":{
+          "BOLT-MVPX-201910": {
             "addContent": {
               "txtDisclaimer1": "",
               "txtDisclaimer2": ""
@@ -773,9 +772,8 @@
           "txtCancelService": "To change or cancel your service, call [[PHONE_NUMBER]]. Or go to DIRECTV.com to manage your account or chat with an agent.",
           "txtMonthlyCharges": "Monthly auto-charges",
           "txtInfoBBTV": "After the 24-month term commitment, your service will renew monthly at the then-prevailing rate unless you cancel.",
-          "txtCommonPhoneNumber":"<a href=\"tel:8005315000\">800.531.5000</a>",
-          "txtMDUPhoneNumber":"<a href=\"tel:8662588766\">866-258-8766</a>"
-
+          "txtCommonPhoneNumber": "<a href=\"tel:8005315000\">800.531.5000</a>",
+          "txtMDUPhoneNumber": "<a href=\"tel:8662588766\">866-258-8766</a>"
         },
         "CancelSwimlanePendingWarningDialog": {
           "txtDialogContent": "Please cancel your pending account conversion before canceling your subscription.",
@@ -825,7 +823,7 @@
           "ctaApply": "APPLY",
           "noPromosAndDiscountMsg": "Your account doesn't have any active discounts or promotions at this time.",
           "txtSecondLine": " DIRECTV Device for free ",
-          "txtPromotionStartsFrom":"Started on"
+          "txtPromotionStartsFrom": "Started on"
         },
         "upgradeDowngradeDialog": {
           "txtOptimoMasSubSecondContent": "You can still catch top-rated Spanish entertainment and sports channels when you add a Spanish-language add-on to your new base package.",
@@ -955,9 +953,9 @@
           "yourPlanText": "Your plan",
           "removeOptionText": "Remove plan",
           "continueBtnText": "Continue",
-          "txtDollar":"$",
+          "txtDollar": "$",
           "txtmo": "/mo.",
-          "planFeatures" : {
+          "planFeatures": {
             "BOLT-NETFLIXWADS-202502": "[[Multiview]] Ad-supported\n [[Hd]] Watch in 1080p (Full HD)\n [[OndemandVideo]] Watch on 2 supported devices",
             "BOLT-NETFLIXSTD-202502": "[[Multiview]] Ad-free\n [[Hd]] Watch in 1080p (Full HD)\n [[OndemandVideo]] Watch on 2 supported devices",
             "BOLT-NETFLIXPRE-202304": "[[Multiview]] Ad-free\n [[FourK]] Watch in 4K (Ultra HD) + HDR\n [[OndemandVideo]] Watch on 4 supported devices\n [[SurroundSound]] Spatial audio, immersive sound"
@@ -974,377 +972,406 @@
         },
         "txtAddonVariantModal": {
           "txtForCurrentPlan": "Your plan",
-            "txtForSelectPlan": "Select your plan",
-            "txtForChangePlan": "Change plan",
-            "txtChoosePlan": "Choose your plan",
-            "txtForAdd": "CONTINUE TO ADD",
-            "txtForCancel": "Cancel",
-            "txtRemove":"Remove",
-            "txtDollar": "$",
-            "txtmo": "/mo.",
-            "txtFor": "for",
-            "txtThen": "then",
-            "txtMos": "mos.",
-            "txtMo": "mo.",
-            "txtincluded": "Included",
-            "txtIncludedUS": "Included on us",
-            "txtForRemove": "Remove plan",
-            "txtForContinue": "Continue",
-            "txtForStartingAt": "Starting at ",
-            "termsAndConditionTitle": "Terms and conditions",
-            "planDetails": [
-              {
-                "serviceIds": ["BOLT-HBO-201610", "BOLT-HBOWADSPAID-202602", "BOLT-MAXWADSFREE-202508","BOLT-MAXWADS-202502"],
-                "txtPlanDesc": [
-                  "Some <b>HBO Max Standard</b> live channels may take a few minutes to become available on your DIRECTV TV guide. You also have access to the HBO Max app and hbomax.com",
-                  "<b>HBO Max Basic with Ads</b> is only available through the HBO Max app and at hbomax.com.",
-                  "<b>When you upgrade your HBO Max plan</b>, you'll be charged a prorated amount for the days you have the higher plan during this billing cycle.",
-                  "<b>When you remove or downgrade your HBO Max plan</b>, you'll continue to enjoy your current plan until the end of your billing cycle. Price changes will be reflected in your next bill."
-                ],
-                 "imageURL": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
-              },
-               {
-                "serviceIds": ["BOLT-AMC-202106", "BOLT-AMCWADS-202603"],
-                "txtPlanDesc": ["Stream via DIRECTV app, AMC+ app, or online at amcplus.com."],
-                 "imageURL": "https://www.directv.com/assets/content/4iypdhmv03/svg/amc-plus-optimized-logo.svg"
-              },
-              {
-                "serviceIds": ["BOLT-VIXWADSALC-202604", "BOLT-VIXADFREEALC-202604"],
-                "txtPlanDesc": ["Some of the channels in this subscription may take a few minutes to become available. May only be accessed on DIRECTV device(s), directv.com, and the DIRECTV app."],
-                 "imageURL": ""
-              },
-              {
-                "serviceIds": ["BOLT-DISNEYBASICALC-202604", "BOLT-DUOBASICALC-202604",""],
-                "txtPlanDesc": ["Some of the channels in this subscription may take a few minutes to become available. May only be accessed on DIRECTV device(s), directv.com, and the DIRECTV app."],
-                 "imageURL": ""
-              },
-              {
-                "serviceIds": ["BOLT-DISNEYADFREEALC-202604", "BOLT-DUOADFREEALC-202604"],
-                "txtPlanDesc": ["Some of the channels in this subscription may take a few minutes to become available. May only be accessed on DIRECTV device(s), directv.com, and the DIRECTV app."],
-                 "imageURL": ""
-              },
-              {
-                "serviceIds": ["BOLT-SHOWTIME-201707", "BOLT-STESSENTIALSALC-202604"],
-                "txtPlanDesc": ["<b>Paramount+ Essential</b> is available only via the Paramount+ app or online at paramountplus.com.  Sign in with TV Provider using your DIRECTV credentials.", "<b>Paramount+ with SHOWTIME</b> subscription includes access to the Paramount+ Premium app plan, Showtime channels, and on-demand on DIRECTV."],
-                "imageURL": "https://www.directv.com/assets/content/vzwtxvc7zd/svg/Paramount-plus-logo-in-circle-ECL.svg"     
-              }
-              
-
-            ],
-            "BOLT-HBO-201610": {
-              "addonDetails": [
-                {
-                  "name": "Watch with no ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "6 live channels",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "HBO Max app included",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "On demand titles",
-                  "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
-                }
-              ]
+          "txtForSelectPlan": "Select your plan",
+          "txtForChangePlan": "Change plan",
+          "txtChoosePlan": "Choose your plan",
+          "txtForAdd": "CONTINUE TO ADD",
+          "txtForCancel": "Cancel",
+          "txtRemove": "Remove",
+          "txtDollar": "$",
+          "txtmo": "/mo.",
+          "txtFor": "for",
+          "txtThen": "then",
+          "txtMos": "mos.",
+          "txtMo": "mo.",
+          "txtincluded": "Included",
+          "txtIncludedUS": "Included on us",
+          "txtForRemove": "Remove plan",
+          "txtForContinue": "Continue",
+          "txtForStartingAt": "Starting at ",
+          "termsAndConditionTitle": "Terms and conditions",
+          "planDetails": [
+            {
+              "serviceIds": [
+                "BOLT-HBO-201610",
+                "BOLT-HBOWADSPAID-202602",
+                "BOLT-MAXWADSFREE-202508",
+                "BOLT-MAXWADS-202502"
+              ],
+              "txtPlanDesc": [
+                "Some <b>HBO Max Standard</b> live channels may take a few minutes to become available on your DIRECTV TV guide. You also have access to the HBO Max app and hbomax.com",
+                "<b>HBO Max Basic with Ads</b> is only available through the HBO Max app and at hbomax.com.",
+                "<b>When you upgrade your HBO Max plan</b>, you'll be charged a prorated amount for the days you have the higher plan during this billing cycle.",
+                "<b>When you remove or downgrade your HBO Max plan</b>, you'll continue to enjoy your current plan until the end of your billing cycle. Price changes will be reflected in your next bill."
+              ],
+              "imageURL": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
             },
-            "BOLT-HBOWADSPAID-202602": {
-              "addonDetails": [
-                {
-                  "name": "HBO Max app-only plan",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Watch with limited ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Stream on 2 devices at once",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "Full HD resolution",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg"
-                }
-              ]
+            {
+              "serviceIds": [
+                "BOLT-AMC-202106",
+                "BOLT-AMCWADS-202603"
+              ],
+              "txtPlanDesc": [
+                "Stream via DIRECTV app, AMC+ app, or online at amcplus.com."
+              ],
+              "imageURL": "https://www.directv.com/assets/content/4iypdhmv03/svg/amc-plus-optimized-logo.svg"
             },
-            "BOLT-MAXWADS-202502":{
-              "addonDetails": [
-                {
-                  "name": "HBO Max app-only plan",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Watch with limited ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Stream on 2 devices at once",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "Full HD resolution",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg"
-                }
-              ]
+            {
+              "serviceIds": [
+                "BOLT-VIXWADSALC-202604",
+                "BOLT-VIXADFREEALC-202604"
+              ],
+              "txtPlanDesc": [
+                "Some of the channels in this subscription may take a few minutes to become available. May only be accessed on DIRECTV device(s), directv.com, and the DIRECTV app."
+              ],
+              "imageURL": ""
             },
-            "BOLT-MAXWADSFREE-202508": {
-              "addonDetails": [
-                {
-                  "name": "HBO Max app-only plan",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Watch with limited ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Stream on 2 devices at once",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "Full HD resolution",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg"
-                }
-              ]
+            {
+              "serviceIds": [
+                "BOLT-DISNEYBASICALC-202604",
+                "BOLT-DUOBASICALC-202604",
+                ""
+              ],
+              "txtPlanDesc": [
+                "Some of the channels in this subscription may take a few minutes to become available. May only be accessed on DIRECTV device(s), directv.com, and the DIRECTV app."
+              ],
+              "imageURL": ""
             },
-             "BOLT-AMC-202106": {
-              "addonDetails": [
-                {
-                  "name": "Stream without ads (limited exclusions apply)",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Includes full access to AMC+, Shudder and Sundance Now",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "AMC+ exclusives",
-                  "url": "https://www.directv.com/assets/content/ejczbh6hqk/svg/ECL-Icons-RGB-Midnight_Genre-Solid.svg"
-                },
-                {
-                  "name": "1 Live TV Channel (The Walking Dead)",
-                  "url": "https://www.directv.com/assets/content/a854rcc2ul/svg/fusion-tv-with-remote-blue900"
-                }
-              ]
+            {
+              "serviceIds": [
+                "BOLT-DISNEYADFREEALC-202604",
+                "BOLT-DUOADFREEALC-202604"
+              ],
+              "txtPlanDesc": [
+                "Some of the channels in this subscription may take a few minutes to become available. May only be accessed on DIRECTV device(s), directv.com, and the DIRECTV app."
+              ],
+              "imageURL": ""
             },
-             "BOLT-AMCWADS-202603": {
-              "addonDetails": [
-                {
-                  "name": "This plan is included with MyEntertainment",
-                  "url": "https://www.directv.com/assets/content/5dxndeve0g/svg/fusion-offers-dollar-blue900.sv"
-                },
-                {
-                  "name": "Includes full access to AMC+, Shudder, and Sundance Now",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "AMC+ exclusives",
-                  "url": "https://www.directv.com/assets/content/ejczbh6hqk/svg/ECL-Icons-RGB-Midnight_Genre-Solid.svg"
-                },
-                {
-                  "name": "1 live TV channel (AMC+/The Walking Dead)",
-                  "url": "https://www.directv.com/assets/content/a854rcc2ul/svg/fusion-tv-with-remote-blue900"
-                }
-              ]
-            },
-            "BOLT-VIXWADSALC-202604": {
-              "addonDetails": [
-                {
-                  "name": "Watch with no ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "6 live channels",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "VIX Premium app included",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "On demand titles",
-                  "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
-                }
-              ]
-            },
-            "BOLT-VIXADFREEALC-202604": {
-              "addonDetails": [
-                {
-                  "name": "Watch with no ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "6 live channels",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "VIX Premium app included",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "On demand titles",
-                  "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
-                }
-              ]
-            },
-            "BOLT-DISNEYBASICALC-202604": {
-              "addonDetails": [
-                {
-                  "name": "Watch with no ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "6 live channels",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "Disney+ app included",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "On demand titles",
-                  "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
-                }
-              ]
-            },
-            "BOLT-DUOBASICALC-202604": {
-              "addonDetails": [
-                {
-                  "name": "Watch with no ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "6 live channels",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "Disney+ and Hulu app included",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "On demand titles",
-                  "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
-                }
-              ]
-            },
-            "BOLT-DISNEYADFREEALC-202604": {
-              "addonDetails": [
-                {
-                  "name": "Watch with no ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "6 live channels",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "Disney+ app included",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "On demand titles",
-                  "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
-                }
-              ]
-            },
-            "BOLT-DUOADFREEALC-202604": {
-              "addonDetails": [
-                {
-                  "name": "Watch with no ads",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Enjoy must-see series and movies",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "6 live channels",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                },
-                {
-                  "name": "Disney+ and Hulu app included",
-                  "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "On demand titles",
-                  "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
-                }
-              ]
-            },
-            "BOLT-SHOWTIME-201707": {
-              "addonDetails": [
-                {
-                  "name": "Ad-free, except live content",
-                  "url": "https://www.directv.com/assets/content/kaop64sxmp/svg/fusion-check-icon-blue900.svg"
-                },
-                {
-                  "name": "SHOWTIME channels and on-demand",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                },
-                {
-                  "name": "Includes access to Paramount+ Premium plan",
-                  "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
-                }
-              ]
-            },
-            "BOLT-STESSENTIALSALC-202604": {
-              "addonDetails": [
-                {
-                  "name": "Ad-supported",
-                  "url": "https://www.directv.com/assets/content/kaop64sxmp/svg/fusion-check-icon-blue900.svg"
-                },
-                {
-                  "name": "Stream on 3 devices at once",
-                  "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
-                },
-                {
-                  "name": "Select SHOWTIME series",
-                  "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
-                }
-                
-              ]
+            {
+              "serviceIds": [
+                "BOLT-SHOWTIME-201707",
+                "BOLT-STESSENTIALSALC-202604"
+              ],
+              "txtPlanDesc": [
+                "<b>Paramount+ Essential</b> is available only via the Paramount+ app or online at paramountplus.com.  Sign in with TV Provider using your DIRECTV credentials.",
+                "<b>Paramount+ with SHOWTIME</b> subscription includes access to the Paramount+ Premium app plan, Showtime channels, and on-demand on DIRECTV."
+              ],
+              "imageURL": "https://www.directv.com/assets/content/vzwtxvc7zd/svg/Paramount-plus-logo-in-circle-ECL.svg"
             }
-      }
+          ],
+          "BOLT-HBO-201610": {
+            "addonDetails": [
+              {
+                "name": "Watch with no ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "6 live channels",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "HBO Max app included",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "On demand titles",
+                "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
+              }
+            ]
+          },
+          "BOLT-HBOWADSPAID-202602": {
+            "addonDetails": [
+              {
+                "name": "HBO Max app-only plan",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Watch with limited ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Stream on 2 devices at once",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "Full HD resolution",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg"
+              }
+            ]
+          },
+          "BOLT-MAXWADS-202502": {
+            "addonDetails": [
+              {
+                "name": "HBO Max app-only plan",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Watch with limited ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Stream on 2 devices at once",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "Full HD resolution",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg"
+              }
+            ]
+          },
+          "BOLT-MAXWADSFREE-202508": {
+            "addonDetails": [
+              {
+                "name": "HBO Max app-only plan",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Watch with limited ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Stream on 2 devices at once",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "Full HD resolution",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg"
+              }
+            ]
+          },
+          "BOLT-AMC-202106": {
+            "addonDetails": [
+              {
+                "name": "Stream without ads (limited exclusions apply)",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Includes full access to AMC+, Shudder and Sundance Now",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "AMC+ exclusives",
+                "url": "https://www.directv.com/assets/content/ejczbh6hqk/svg/ECL-Icons-RGB-Midnight_Genre-Solid.svg"
+              },
+              {
+                "name": "1 Live TV Channel (The Walking Dead)",
+                "url": "https://www.directv.com/assets/content/a854rcc2ul/svg/fusion-tv-with-remote-blue900"
+              }
+            ]
+          },
+          "BOLT-AMCWADS-202603": {
+            "addonDetails": [
+              {
+                "name": "This plan is included with MyEntertainment",
+                "url": "https://www.directv.com/assets/content/5dxndeve0g/svg/fusion-offers-dollar-blue900.sv"
+              },
+              {
+                "name": "Includes full access to AMC+, Shudder, and Sundance Now",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "AMC+ exclusives",
+                "url": "https://www.directv.com/assets/content/ejczbh6hqk/svg/ECL-Icons-RGB-Midnight_Genre-Solid.svg"
+              },
+              {
+                "name": "1 live TV channel (AMC+/The Walking Dead)",
+                "url": "https://www.directv.com/assets/content/a854rcc2ul/svg/fusion-tv-with-remote-blue900"
+              }
+            ]
+          },
+          "BOLT-VIXWADSALC-202604": {
+            "addonDetails": [
+              {
+                "name": "Watch with no ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "6 live channels",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "VIX Premium app included",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "On demand titles",
+                "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
+              }
+            ]
+          },
+          "BOLT-VIXADFREEALC-202604": {
+            "addonDetails": [
+              {
+                "name": "Watch with no ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "6 live channels",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "VIX Premium app included",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "On demand titles",
+                "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
+              }
+            ]
+          },
+          "BOLT-DISNEYBASICALC-202604": {
+            "addonDetails": [
+              {
+                "name": "Watch with no ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "6 live channels",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "Disney+ app included",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "On demand titles",
+                "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
+              }
+            ]
+          },
+          "BOLT-DUOBASICALC-202604": {
+            "addonDetails": [
+              {
+                "name": "Watch with no ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "6 live channels",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "Disney+ and Hulu app included",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "On demand titles",
+                "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
+              }
+            ]
+          },
+          "BOLT-DISNEYADFREEALC-202604": {
+            "addonDetails": [
+              {
+                "name": "Watch with no ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "6 live channels",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "Disney+ app included",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "On demand titles",
+                "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
+              }
+            ]
+          },
+          "BOLT-DUOADFREEALC-202604": {
+            "addonDetails": [
+              {
+                "name": "Watch with no ads",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Enjoy must-see series and movies",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "6 live channels",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              },
+              {
+                "name": "Disney+ and Hulu app included",
+                "url": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "On demand titles",
+                "url": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg"
+              }
+            ]
+          },
+          "BOLT-SHOWTIME-201707": {
+            "addonDetails": [
+              {
+                "name": "Ad-free, except live content",
+                "url": "https://www.directv.com/assets/content/kaop64sxmp/svg/fusion-check-icon-blue900.svg"
+              },
+              {
+                "name": "SHOWTIME channels and on-demand",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              },
+              {
+                "name": "Includes access to Paramount+ Premium plan",
+                "url": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg"
+              }
+            ]
+          },
+          "BOLT-STESSENTIALSALC-202604": {
+            "addonDetails": [
+              {
+                "name": "Ad-supported",
+                "url": "https://www.directv.com/assets/content/kaop64sxmp/svg/fusion-check-icon-blue900.svg"
+              },
+              {
+                "name": "Stream on 3 devices at once",
+                "url": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg"
+              },
+              {
+                "name": "Select SHOWTIME series",
+                "url": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg"
+              }
+            ]
+          }
+        }
       }
     },
     "streamsInfo": {
@@ -1396,11 +1423,11 @@
         "txtPlease": "Please",
         "txtPauseSubscriptionMsg": "Prepare to pause! Your service will pause from [[START_DATE]] to [[END_DATE]]",
         "txtFTMsg1": "Enjoy your DIRECTV free trial until [[FTEND_DATE]].",
-        "txtFTMsg2":"You can stream [[ft_addon]] after your free trial.",
+        "txtFTMsg2": "You can stream [[ft_addon]] after your free trial.",
         "txtFTLearnmore": "Learn more",
         "ftModalContent": {
           "txtFTModalTitle": "About your DIRECTV Free trial",
-          "ftcontent1": "You can stream [[ft_addon]] after your free trial on [[FTEND_DATE]].", 
+          "ftcontent1": "You can stream [[ft_addon]] after your free trial on [[FTEND_DATE]].",
           "ftcontent2": "You won’t be charged during your free trial.",
           "ftcontent3": "Your account will auto-charge [[FTAUTOPAY_AMT]] + tax on [[FTAUTOPAY_DATE]] to your [[FT_CARDTYPE]] ending in [[FTCARD_NUMBER]].",
           "txtFTbutton": "Close",
@@ -1546,7 +1573,7 @@
         "txtBottom": "Subscription renews monthly during current regular season unless cancelled and automatically renews each season at the then-prevailing rate (currently $30/mo. for 6 months) unless you opt-out of auto renewal. Cancel or change auto-renewal preference anytime online at directv.com or by calling 800.531.5000. No refunds or credits for any partial-month periods or unwatched content. However, once you've cancelled, you can access NBA League Pass Premium through any remaining monthly period. Includes live, out-of-market, regular-season games only. Blackout restrictions &amp; other conditions apply. Out-of-market game availability is based on billing zip code. NBA, the NBA logo, and team identifications are the exclusive intellectual property of NBA Properties, Inc., and the respective member teams. ©2022 NBA Properties, Inc. All Rights Reserved"
       }
     },
-    "seasonPassModal":{
+    "seasonPassModal": {
       "txtDescriptionRemoveAutoRenewMsg3": "You are removing [displayName], There are no refunds for partial-month periods, and you will have access to [displayName] until your current billing period is done. If you change your mind, you can add it again at any time during the regular season.",
       "disclaimers": " Disclaimers"
     },
@@ -1725,24 +1752,24 @@
           "titleMep": "You already have [[name]] selected",
           "titleDialogContent": "Would you like to switch to only [[name]] for $[[price]]/mo.?",
           "titleDialogContentMep": "Would you like to switch to [[name]] for $[[price]]/mo.?",
-          "peacockContentMep":"<ul><li>You’ll continue to get [[name]]</li><li>You’ll get nine entertainment channels, select Peacock live events and On Demand channels coming soon.</li><li>It's less expensive than subscribing separately to Movies Extra Pack and Peacock Premium</li></ul>", 
+          "peacockContentMep": "<ul><li>You’ll continue to get [[name]]</li><li>You’ll get nine entertainment channels, select Peacock live events and On Demand channels coming soon.</li><li>It's less expensive than subscribing separately to Movies Extra Pack and Peacock Premium</li></ul>",
           "peacockContent": "<ul><li>You’ll only get [[name]]</li><li>You’ll lose your nine Movies Extra Pack entertainment channels</li><li>You’ll lose the savings you get from Movies Extra Pack with [[selectedPack]]</li></ul>",
           "btnTextPrimary": "Switch to Peacock Premium",
           "btnTextPrimaryMep": "Switch to [[name]]",
           "btnTextSecondary": "Cancel"
         },
-        "bundleOffer":{
-          "BOLT-MVPXPEACOCK-202506" : {
-          "btnTextPrimary": "Add [[name]]",
-          "bundleTitle": "If you like [[selectedPack]], you’ll love [[name]]",
-          "discription": "Enjoy classic favorites, documentaries, movies and short films from Sony Movies, Hallmark Family, Hallmark Mystery, Smithsonian Channel, and more with Movies Extra Pack! <br><br> Plus, with [[name]] included you will be able to stream your favorite movies in the universe, hit series, exclusive originals, live sports, next-day episodes from NBC & Bravo and more on the Peacock app or at peacocktv.com.",
-          "btnTextSecondary": "No thanks, just add [[name]]",
-          "bundleTxtMnth": "/mo.",
-          "bundleDlr": "$",
-          "logoImage": "https://directv.com/assets/content/b7jxoppxfh/svg/Channel-Icon-Peacock-MEP-100x100.svg",
-          "productDisclaimer": "Save when you add Movies Extra Pack with Peacock Premium"
-        }
-      },
+        "bundleOffer": {
+          "BOLT-MVPXPEACOCK-202506": {
+            "btnTextPrimary": "Add [[name]]",
+            "bundleTitle": "If you like [[selectedPack]], you’ll love [[name]]",
+            "discription": "Enjoy classic favorites, documentaries, movies and short films from Sony Movies, Hallmark Family, Hallmark Mystery, Smithsonian Channel, and more with Movies Extra Pack! <br><br> Plus, with [[name]] included you will be able to stream your favorite movies in the universe, hit series, exclusive originals, live sports, next-day episodes from NBC & Bravo and more on the Peacock app or at peacocktv.com.",
+            "btnTextSecondary": "No thanks, just add [[name]]",
+            "bundleTxtMnth": "/mo.",
+            "bundleDlr": "$",
+            "logoImage": "https://directv.com/assets/content/b7jxoppxfh/svg/Channel-Icon-Peacock-MEP-100x100.svg",
+            "productDisclaimer": "Save when you add Movies Extra Pack with Peacock Premium"
+          }
+        },
         "popUp": {
           "stepTwo": "<b>Step 2</b>: Select <strong>Add</strong>",
           "basePackRemovalTxt": "for the base pack you want to remove.",
@@ -1760,7 +1787,7 @@
           "basePackTxtDesc": "You need to choose another base pack before you can remove this one."
         },
         "txtProgramming": "Programming subject to change.",
-        "pkgTitle":"Package",
+        "pkgTitle": "Package",
         "catalogInfo": {
           "STND-BRAZIL-201804": {
             "displayOrder": "30",
@@ -1823,17 +1850,17 @@
           },
           "BOLT-HBO-201610": {
             "image": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg",
-            "imageUrl": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg",   
+            "imageUrl": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg",
             "displayOrder": "30",
             "tabType": "Premium"
           },
-            "BOLT-HBOWADSPAID-202602": {
+          "BOLT-HBOWADSPAID-202602": {
             "image": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg",
             "imageUrl": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg",
             "displayOrder": "16",
             "tabType": "Premium"
           },
-            "BOLT-STESSENTIALSALC-202604": {
+          "BOLT-STESSENTIALSALC-202604": {
             "image": "https://www.directv.com/assets/content/5qqd8y0a15/svg/SVOD-app-logo_Paramount-plus.svg",
             "imageUrl": "https://www.directv.com/assets/content/5qqd8y0a15/svg/SVOD-app-logo_Paramount-plus.svg",
             "tabType": "Premium"
@@ -1962,7 +1989,8 @@
             "header": "THE ONE WITH THE MOST",
             "description": [
               "Includes NFL RedZone from NFL Network, Outdoor Channel, MLB Strike Zone, Next Level Sports and in-market regional sports networks.",
-              "Includes HBO, STARZ, SHOWTIME, CINEMAX, and Hallmark Movies Mysteries.","HBO Max at no extra cost!"
+              "Includes HBO, STARZ, SHOWTIME, CINEMAX, and Hallmark Movies Mysteries.",
+              "HBO Max at no extra cost!"
             ]
           },
           "PROMO-EMPEPIX-202007": {
@@ -2407,7 +2435,7 @@
               },
               {
                 "name": "MAX",
-                 "url": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
+                "url": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
               },
               {
                 "name": "Paramount + SHOWTIME",
@@ -2511,11 +2539,11 @@
               }
             ]
           },
-           "BOLT-MYSPORTSMYNEWS-202602": {
+          "BOLT-MYSPORTSMYNEWS-202602": {
             "channels": [
               {
                 "name": "ESPN",
-                 "url": "/dtvassets/global/channel-icons/e-g/Channel_Icon_ESPN.svg",
+                "url": "/dtvassets/global/channel-icons/e-g/Channel_Icon_ESPN.svg",
                 "logotxt": "ESPN logo"
               },
               {
@@ -2541,7 +2569,7 @@
             "tabType": "Premium"
           },
           "BOLT-AMC-202106": {
-          "image": "https://www.directv.com/assets/content/4iypdhmv03/svg/amc-plus-optimized-logo.svg",
+            "image": "https://www.directv.com/assets/content/4iypdhmv03/svg/amc-plus-optimized-logo.svg",
             "subTabType": "Streaming Services",
             "tabType": "Premium"
           },
@@ -2604,7 +2632,7 @@
               },
               {
                 "name": "MAX",
-               "url": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
+                "url": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
               },
               {
                 "name": "Paramount + SHOWTIME",
@@ -2633,7 +2661,7 @@
               },
               {
                 "name": "MAX",
-                 "url": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
+                "url": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg"
               },
               {
                 "name": "Paramount + SHOWTIME",
@@ -2664,7 +2692,7 @@
                 "logotxt": "Hulu logo"
               },
               {
-               "name": "HBO MAX Standard",
+                "name": "HBO MAX Standard",
                 "url": "https://www.directv.com/assets/content/5rreysqp2h/svg/Channel_Icon_HBOMax_Circle_bw_100x100.svg",
                 "logotxt": "HBO MAX Standard logo"
               },
@@ -2787,7 +2815,7 @@
         "ctaAdding": "Adding",
         "txtmo": "/mo.",
         "ctaAdd": "Add",
-        "ctaContinue":"Continue to add",
+        "ctaContinue": "Continue to add",
         "ctaCancel": "Cancel",
         "seasonTxt": "until season end",
         "txtEndDate": "Service ends:",
@@ -2856,7 +2884,7 @@
         "txtDollar": "$",
         "txtStreamImgURl": "/dtvassets/global/icons/svg/tv.svg",
         "ctaRemoved": "REMOVED",
-        "freeTrailText":"Watch after free trial ends on [[endDateText]]",
+        "freeTrailText": "Watch after free trial ends on [[endDateText]]",
         "freePromoBadge": {
           "elements": {
             "months": "MONTHS",
@@ -2874,8 +2902,8 @@
         "txtShopAddons": "It’s lonely in here. How about some more add-ons?",
         "txtSeeDetails": "See details",
         "txtCurrentTVSubscription": "Current TV subscription",
-        "txtSignatureTitle":"Signature Package",
-        "txtDiscount":"$[[PRICE]]/mo. off until",
+        "txtSignatureTitle": "Signature Package",
+        "txtDiscount": "$[[PRICE]]/mo. off until",
         "appleTvWatchLink": "https://tv.apple.com/us",
         "txtRemovePauseSubscription": "Remove my service pause",
         "txtCancelSubscriptionLabel": "Cancel my service",
@@ -2892,7 +2920,7 @@
         "txtDiscountsLabel": "See discounts and promos",
         "txtMsgTooltip": "Enjoy Disney+ using the watch link under MyEntertainment.",
         "txtMo": "/mo",
-         "txtTimerImage": "/dtvassets/global/icons/svg/time.svg",
+        "txtTimerImage": "/dtvassets/global/icons/svg/time.svg",
         "lblDescriptionCompareXtraToChoice": "Compare XTRA to CHOICE",
         "txtSpecialCharacter1": "*",
         "txtShopAddonBtn": "Shop add-ons",
@@ -2905,7 +2933,7 @@
         "duoBasicWatchLink": "https://www.disneyplus.com/",
         "txtEmployeeDiscount": "Employee cost - $10/mo. You get the employee discount on our best package.",
         "txtPauseMySubscription": "Pause my service",
-         "txtPauseMySubscriptionFusion": "Pause service",
+        "txtPauseMySubscriptionFusion": "Pause service",
         "txtWatchEspnPlus": "Watch ESPN Unlimited",
         "txtWatchAppleTv": "Watch Apple TV+",
         "txtPackageTitle": "MY PACKAGE",
@@ -2921,9 +2949,9 @@
         "compareWithOptimoMas": "/dtvassets/images/service/dtvn/logos/att-tv/21Q3_DTVSt_EntOM_CLU_Dv.pdf",
         "txtEndsService": "Ends",
         "txtDollar": "$",
-        "txtBasePackage":"Base Pack",
-        "txtMiniPackage":"Mini Pack",
-        "txtAlsoInclude":"Also includes:",
+        "txtBasePackage": "Base Pack",
+        "txtMiniPackage": "Mini Pack",
+        "txtAlsoInclude": "Also includes:",
         "txtPromoEnds": "Promo ends",
         "txtAddonText": "Add-on",
         "txtServiceEndsPause": "Your [[CURRENT_PACKAGE]] will switch to [[NEW_PACKAGE]] when your service pause ends.",
@@ -3007,7 +3035,13 @@
         "myHomeSeeallink": "https://streamtv.directv.com/streamtv/channel-pack-lineup/modal?pkg=myhometeam",
         "myHometxt": "to make sure your local teams are included.",
         "ownedAddOnText": "I have this",
-        "tooltipWithName": {"toolTipArray": [{"serviceId":"BOLT-MYKIDS-202410","content":"Must be 18+ to subscribe to Disney+ and to activate the MyKids genre pack offer. This offer will not replace any existing Disney+ or bundle subscription you may already have. All other accounts must be managed separately. You must remain on an eligible plan to retain your offer."}]
+        "tooltipWithName": {
+          "toolTipArray": [
+            {
+              "serviceId": "BOLT-MYKIDS-202410",
+              "content": "Must be 18+ to subscribe to Disney+ and to activate the MyKids genre pack offer. This offer will not replace any existing Disney+ or bundle subscription you may already have. All other accounts must be managed separately. You must remain on an eligible plan to retain your offer."
+            }
+          ]
         },
         "txtSeeAllLink": "https://www.directv.com/channel-pack-lineup/modal/?pkg=[[package]]",
         "txtSeeAll": "See all"
@@ -3034,91 +3068,90 @@
         "txtBottom": "Subscription renews monthly during current regular season unless cancelled and automatically renews each season at the then-prevailing rate (currently $30/mo. for 6 months) unless you opt-out of auto renewal. Cancel or change auto-renewal preference anytime online at DIRECTV | Call 855.796.1459 to Stream Via Internet or Satellite  or by calling 800.531.5000. No refunds or credits for any partial-month periods or unwatched content. However, once you've cancelled, you can access NBA League Pass Premium through any remaining monthly period. Includes live, out-of-market, regular-season games only. Blackout restrictions &amp; other conditions apply. Out-of-market game availability is based on billing zip code. NBA, the NBA logo, and team identifications are the exclusive intellectual property of NBA Properties, Inc., and the respective member teams. ©2022 NBA Properties, Inc. All Rights Reserved"
       }
     },
-    "informationSls":{
+    "informationSls": {
       "title": "informationSls",
-      "elements":{
+      "elements": {
         "title": "Compare Genre Packs and Signature Packages",
-        "backtoPackage":"Back to My TV Package",
-        "mobileBacktoPackage":"Back",
-       "linklist":{
-         "list": [
-        {
-          "mainText": "Genre Packs are new at DIRECTV. They offer the flexibility of selecting multiple packs geared to your specific interests."
+        "backtoPackage": "Back to My TV Package",
+        "mobileBacktoPackage": "Back",
+        "linklist": {
+          "list": [
+            {
+              "mainText": "Genre Packs are new at DIRECTV. They offer the flexibility of selecting multiple packs geared to your specific interests."
+            },
+            {
+              "mainText": "Signature Packages offer a wide variety of general interest channels and lots of content for one low price."
+            }
+          ]
         },
-        {
-          "mainText": "Signature Packages offer a wide variety of general interest channels and lots of content for one low price."
-        }
-      ]
-    },
-     
-      "faq" : {
-        "analytics": {
-         "tag": "Accordion"
-       }, 
-       "title":"Frequently asked questions <br />Got questions? You’re not the only one! See our answers to the most common questions.",
-      "mode": "light" ,
-       "variant": "limit",
-       "limit":"3",
-       "label": [
-         {
-           "title": "Can I switch between Genre Packs and Signature Packages whenever I want??",
-           "content":"You can switch between Signature Packages and Genre Packs at any time. Just choose a new Signature Package or Genre Pack and any add-ons when you switch.Once you switch from a Signature Package to Genre Packs or vice-versa, your old selections are canceled. In addition, some switches won’t take effect until the end of your current billing cycle.",
-           "disabled": false
-         },
-         {
-           "title": "Will I lose my add-ons if I switch between Genre Packs and Signature Packages?",
-           "content": "Yes, you will lose your add-ons when switching to a Genre Pack. The same is true if you switch from a Signature Package to a Genre Pack.However, most add-ons that you can get with Genre Packs are also available with Signature Packages. Just sign up for new add-ons once you get your new Genre Pack(s) or Signature Package.",
-           "disabled": false
-         },
-         {
-           "title": "Can I use my DIRECTV set-top box or dongle with Signature Packages or Genre Packs?",
-           "content": "Yes! DIRECTV devices work great whether you have a Signature Package or Genre Packs.",
-           "disabled": false
-         },
-         {
-           "title": "How do I activate and watch streaming services?",
-           "content": "After you sign up, you’ll be sent an email with all the info you need to activate and watch your new streaming service.<br /> <br />After you activate your streaming service, you can watch on your TV, computer, or mobile device.",
-           "disabled": true
-         },
-         {
-           "title": "What will happen to my promos and discounts if I switch between Genre Packs and Signature Packages?",
-           "content": "If you switch from a Signature Package to a Genre Pack or vice versa, you’ll lose any promos or discounts you had with your former selections.",
-           "disabled": false
-         }
-       ]
-     },
-     "titleDiff1":"Genre Packs",
-     "titleDiff2":"Signature Packages",
-     "headingTlt":"At a glance",
-     "content":"A great choice if you want focused channels in the genres you watch the most.<br /> <br />Add as many Genre Packs as you want.",
-     "content1":"Want a lot of variety for one low price? Signature Packages are for you.<br /> <br />Choose one Signature Package.",
-     "price":"Price",
-     "priceContent":"Starts at $19.99/mo.",
-     "priceContent2":"Starts at $87.99/mo.",
-     "channelTitle": "Channel counts",
-     "channelContent":"9-60 channels",
-     "channel2":"per Genre Pack.",
-     "localChannel":"Local channels are available with the MyNews and MySports Genre Packs.",
-     "txtSeeAllLink": "https://www.directv.com/channel-pack-lineup/modal/",
-     "channelContent1":"85-185 channels", 
-     "channelContent2":"per Signature Package.",
-     "channelContent3" :"Local channels are included.",
-     "channelCotentLink":"Genre Packs channel lineup ",
-     "sportTitle":"Regional sports network",
-     "sportContent":"Available with the MyHome Team Mini Pack.",
-     "sportContent2":"Included in all Signature Packages except Entertainment and Optimo Màs.",
-     "streamingTitle":"Popular streaming services included (Max, ESPN+, Hulu, Disney+)",
-     "streamContent":"Most Genre Packs include at least one streaming service.",
-     "streamContent2":"Streaming services are available as individual Add-ons.",
-     "shoptCta":"Shop Genre Packs",
-     "shopCta1":"Shop Signature Packages",
-     "compareCta":"Compare channel lineups",
-     "infoTileTitle":"Get more variety—switch to a Signature Package",
-     "infoTitle1":"Get more focused content by switching to a Genre Pack",
-     "informationText":"You currently have a Genre Pack. Need a wider variety of channels? Switching to a Signature Package might be right for you.",
-     "informationText1":"Want fewer channels geared to your specific interests? Switching to a Genre Pack might be right for you.",
-     "infoPrice":"Starting at $XX.XX",
-     "infoBtn":"Learn more"
+        "faq": {
+          "analytics": {
+            "tag": "Accordion"
+          },
+          "title": "Frequently asked questions <br />Got questions? You’re not the only one! See our answers to the most common questions.",
+          "mode": "light",
+          "variant": "limit",
+          "limit": "3",
+          "label": [
+            {
+              "title": "Can I switch between Genre Packs and Signature Packages whenever I want??",
+              "content": "You can switch between Signature Packages and Genre Packs at any time. Just choose a new Signature Package or Genre Pack and any add-ons when you switch.Once you switch from a Signature Package to Genre Packs or vice-versa, your old selections are canceled. In addition, some switches won’t take effect until the end of your current billing cycle.",
+              "disabled": false
+            },
+            {
+              "title": "Will I lose my add-ons if I switch between Genre Packs and Signature Packages?",
+              "content": "Yes, you will lose your add-ons when switching to a Genre Pack. The same is true if you switch from a Signature Package to a Genre Pack.However, most add-ons that you can get with Genre Packs are also available with Signature Packages. Just sign up for new add-ons once you get your new Genre Pack(s) or Signature Package.",
+              "disabled": false
+            },
+            {
+              "title": "Can I use my DIRECTV set-top box or dongle with Signature Packages or Genre Packs?",
+              "content": "Yes! DIRECTV devices work great whether you have a Signature Package or Genre Packs.",
+              "disabled": false
+            },
+            {
+              "title": "How do I activate and watch streaming services?",
+              "content": "After you sign up, you’ll be sent an email with all the info you need to activate and watch your new streaming service.<br /> <br />After you activate your streaming service, you can watch on your TV, computer, or mobile device.",
+              "disabled": true
+            },
+            {
+              "title": "What will happen to my promos and discounts if I switch between Genre Packs and Signature Packages?",
+              "content": "If you switch from a Signature Package to a Genre Pack or vice versa, you’ll lose any promos or discounts you had with your former selections.",
+              "disabled": false
+            }
+          ]
+        },
+        "titleDiff1": "Genre Packs",
+        "titleDiff2": "Signature Packages",
+        "headingTlt": "At a glance",
+        "content": "A great choice if you want focused channels in the genres you watch the most.<br /> <br />Add as many Genre Packs as you want.",
+        "content1": "Want a lot of variety for one low price? Signature Packages are for you.<br /> <br />Choose one Signature Package.",
+        "price": "Price",
+        "priceContent": "Starts at $19.99/mo.",
+        "priceContent2": "Starts at $87.99/mo.",
+        "channelTitle": "Channel counts",
+        "channelContent": "9-60 channels",
+        "channel2": "per Genre Pack.",
+        "localChannel": "Local channels are available with the MyNews and MySports Genre Packs.",
+        "txtSeeAllLink": "https://www.directv.com/channel-pack-lineup/modal/",
+        "channelContent1": "85-185 channels",
+        "channelContent2": "per Signature Package.",
+        "channelContent3": "Local channels are included.",
+        "channelCotentLink": "Genre Packs channel lineup ",
+        "sportTitle": "Regional sports network",
+        "sportContent": "Available with the MyHome Team Mini Pack.",
+        "sportContent2": "Included in all Signature Packages except Entertainment and Optimo Màs.",
+        "streamingTitle": "Popular streaming services included (Max, ESPN+, Hulu, Disney+)",
+        "streamContent": "Most Genre Packs include at least one streaming service.",
+        "streamContent2": "Streaming services are available as individual Add-ons.",
+        "shoptCta": "Shop Genre Packs",
+        "shopCta1": "Shop Signature Packages",
+        "compareCta": "Compare channel lineups",
+        "infoTileTitle": "Get more variety—switch to a Signature Package",
+        "infoTitle1": "Get more focused content by switching to a Genre Pack",
+        "informationText": "You currently have a Genre Pack. Need a wider variety of channels? Switching to a Signature Package might be right for you.",
+        "informationText1": "Want fewer channels geared to your specific interests? Switching to a Genre Pack might be right for you.",
+        "infoPrice": "Starting at $XX.XX",
+        "infoBtn": "Learn more"
       }
     }
   }
