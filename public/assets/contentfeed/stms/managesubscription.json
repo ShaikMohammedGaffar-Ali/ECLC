@@ -286,7 +286,7 @@
             "image": "/dtvassets/sales/directv/logos/add-ons/foxnation-c.svg"
           },
           "BOLTON-HBO-MAX": {
-            "image": "/assets/content/j6akd76q4v/svg/Channel-Icon-HBOmax-100x100.svg",
+            "image": "www.dtv.com/hbo/rebranding-05.svg",
             "imageUrl": "/dtvassets/sales/directv/logos/add-ons/max-horiz-k.svg"
           },
           "BOLTON-SHOWTIME_satellite": {
@@ -580,7 +580,7 @@
               "retentionModalContent": "<div class=\"MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root\" style=\"width: 100.0%;\"><div class=\"MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root\" style=\"margin: 34px auto 5px;display: block;padding: 0px;text-align: center;\"><img src=\"https://www.directv.com[[imageURL]]\" alt=\"movies extra pack logo\" style=\"height: 40.0px;\" /></div></div>",
               "image": "https://www.directv.com/dtvassets/sales/directv/logos/add-ons/moviesextrapack-c.svg",
               "tltDialog": "<b>Special offer: [[displayName]] </b>",
-             "txtDialogContent": "<br/>You have a limited time option to get the current [[displayName]] add-on for the current price of $[[Amount]]/mo.<br/> <br/> If you choose this option, you’ll lose your current Movies Extra Pack offer and won’t be upgraded to Movies Extra Pack + Peacock.",
+              "txtDialogContent": "<br/>You have a limited time option to get the current [[displayName]] add-on for the current price of $[[Amount]]/mo.<br/> <br/> If you choose this option, you’ll lose your current Movies Extra Pack offer and won’t be upgraded to Movies Extra Pack + Peacock.",
               "valuePropModalContent": "<span class='MuiTypography-root MuiTypography-body1 css-1ceytvz-MuiTypography-root' style='font-weight: normal; display: block; padding-bottom: 20px; font-size: 22px; line-height: normal;'>Movies Extra Pack is getting bigger and better - Peacock Premium is coming soon!</span><span class='MuiTypography-root MuiTypography-body1 css-1ceytvz-MuiTypography-root' style='font-weight: normal; font-size: 16px; line-height: normal;'>With Peacock Premium included you will be able to stream your favorite movies in the universe, hit series, exclusive originals, live sports, next day episodes from NBC & Bravo and more on the Peacock app or at <a href='https://www.peacocktv.com' data-linkPosition= 'modal_peacocktv.com' data-linkDestination= 'https://www.peacocktv.com'  id= 'peacocktv.com'>peacocktv.com.>peacocktv.com.</a></span> </br></br><span class='MuiTypography-root MuiTypography-body1 css-1ceytvz-MuiTypography-root' style='font-weight: normal; font-size: 16px; line-height: normal;'>In the meantime, you can continue to watch all your favorite Movies Extra Pack channels. At the start of your next billing period, Peacock Premium will be added to Movies Extra Pack and the price will change to $9.99/mo. Once Peacock is available, you will receive an email with instructions on how to activate your account.</span><div class=\"MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root\" style=\"margin: 32px auto 32px auto;display: block;padding: 0.0px;text-align: center;\"><img src=\"https://www.directv.com/assets/content/b7jxoppxfh/svg/Channel-Icon-Peacock-MEP-100x100.svg\" alt=\"Cinemax logo\" style=\"height: 90.0px;\" /></div><div class='MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root' style='border-top: 1px solid rgb(151, 151, 151); margin-top: 32px; padding-top: 25px;'><div class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1q3snsu-MuiGrid-root'><span class='MuiTypography-root MuiTypography-body1 css-1ceytvz-MuiTypography-root' style='font-weight: normal; font-size: 18px; line-height: normal;'>What would you like to do with your Movies Extra pack?</span></div></div></div>"
             },
             "P121606/1": {
@@ -784,7 +784,7 @@
         },
         "ctaSeeDetails": "SEE DETAILS",
         "promotionDetails": [
-           {
+          {
             "code": "P2165",
             "agreementId": "VAGR-HBO-STARZ-SHOWTIME-CINEMAX-3MO-V21",
             "name": "HBO",
@@ -900,45 +900,45 @@
           "txtForNewPackagePrefixInclude": "Your new package includes",
           "txtForMepPeacockUpgradeAndDowngrade": "Because your new package includes Peacock Premium, we’ll replace the Movies Extra Pack + Peacock Premium bundle with Movies Extra Pack for $4.99/mo. and remove any promos for the bundle from your account.",
           "premierIncludedAddons": {
-          "BOLTON-HBO-MAX_satellite": {
-            "promotionalAmount": "Included",
-            "name": "Max"
+            "BOLTON-HBO-MAX_satellite": {
+              "promotionalAmount": "Included",
+              "name": "Max"
+            },
+            "BOLTON-DIRECTV-SPORTS-PACK_satellite": {
+              "promotionalAmount": "Included",
+              "name": "DIRECTV SPORTS PACK"
+            },
+            "BOLTON-SHOWTIME_satellite": {
+              "promotionalAmount": "Included",
+              "name": "Paramount+ with SHOWTIME"
+            },
+            "BOLTON-CINEMAX_satellite": {
+              "promotionalAmount": "Included",
+              "name": "CINEMAX"
+            },
+            "BOLTON-STARZ_satellite": {
+              "promotionalAmount": "Included",
+              "name": "STARZ"
+            },
+            "BOLTON-ESPN-UNLIMITED_satellite": {
+              "promotionalAmount": "Included",
+              "name": "ESPN Unlimited"
+            },
+            "BOLTON-PEACOCK_satellite": {
+              "promotionalAmount": "Included",
+              "name": "Peacock Premium"
+            }
           },
-          "BOLTON-DIRECTV-SPORTS-PACK_satellite": {
-            "promotionalAmount": "Included",
-            "name": "DIRECTV SPORTS PACK"
-          },
-          "BOLTON-SHOWTIME_satellite": {
-            "promotionalAmount": "Included",
-            "name": "Paramount+ with SHOWTIME"
-          },
-          "BOLTON-CINEMAX_satellite": {
-            "promotionalAmount": "Included",
-            "name": "CINEMAX"
-          },
-          "BOLTON-STARZ_satellite": {
-            "promotionalAmount": "Included",
-            "name": "STARZ"
-          },
-          "BOLTON-ESPN-UNLIMITED_satellite": {
-            "promotionalAmount": "Included",
-            "name": "ESPN Unlimited"
-          },
-          "BOLTON-PEACOCK_satellite": {
-            "promotionalAmount": "Included",
-            "name": "Peacock Premium"
-          }
-        },
-        "packageIncludeaddons": [
+          "packageIncludeaddons": [
             {
-            "serviceId": "BOLTON-ESPN-UNLIMITED_satellite",
-            "name": "ESPN Unlimited"
-          },
-          {
-            "serviceId": "BOLTON-PEACOCK_satellite",
-            "name": "Peacock Premium"
-          }
-        ]
+              "serviceId": "BOLTON-ESPN-UNLIMITED_satellite",
+              "name": "ESPN Unlimited"
+            },
+            {
+              "serviceId": "BOLTON-PEACOCK_satellite",
+              "name": "Peacock Premium"
+            }
+          ]
         },
         "webFormDialog": {
           "ctaRemoveAutoRenewal": "REMOVE AUTO-RENEWAL",
@@ -1042,7 +1042,7 @@
             },
             "imageUrl": "https://www.directv.com/dtvassets/sales/directv/logos/add-ons/netflix-c.svg",
             "txtNetflixTermsAndCondition": "By selecting this offer, you agree that your subscription to [Netflix plan name] auto-renews monthly at the then prevailing rate (Currently $[XX.XX]/mo. + taxes) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV.com.",
-             "txtPlanDesc": [
+            "txtPlanDesc": [
               "By selecting this offer, you agree to <a href=\"https://help.netflix.com/legal/termsofuse/\" target=\"_blank\" style='color: #555555;'><u>Netflix Terms of Use</u></a> and <a href=\"https://www.directv.com/legal/netflix-bundle-offer-terms/\" target=\"_blank\" style='color: #555555;'><u>Netflix offer terms</u></a>. Once your purchase is complete, we’ll send you an email so you can activate your Netflix subscription and start streaming.",
               "Live events are included with any Netflix plan and contain ads.",
               "<b>Existing Netflix customers</b> subscribing to Netflix through DIRECTV must activate the new service to migrate billing to DIRECTV. You will receive separate information via email on how to activate your account.",
@@ -1060,27 +1060,27 @@
             "txtForStartingAt": "Starting at ",
             "Standard": {
               "txtStandard": "Standard",
-              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg", 
+              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg",
               "content1": "Ad-free",
-              "imageurl2": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg", 
+              "imageurl2": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg",
               "content2": "Watch in 1080p (Full HD)",
               "imageurl3": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg",
               "content3": "Watch on 2 supported devices"
             },
             "StandardWithAds": {
               "txtStandardWithAds": "Standard with ads",
-              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg", 
+              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg",
               "content1": "Ad-supported",
-              "imageurl2": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg", 
+              "imageurl2": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg",
               "content2": "Watch in 1080p (Full HD)",
               "imageurl3": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg",
               "content3": "Watch on 2 supported devices"
             },
             "Premium": {
               "txtPremium": "Premium",
-              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg", 
+              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg",
               "content1": "Ad-free",
-              "imageurl2": "https://www.directv.com/assets/content/zin1bqmdhj/svg/fusion_4k_blue900.svg", 
+              "imageurl2": "https://www.directv.com/assets/content/zin1bqmdhj/svg/fusion_4k_blue900.svg",
               "content2": "Watch in 4K (Ultra HD) + HDR",
               "imageurl3": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg",
               "content3": "Watch on 4 supported devices",
@@ -1122,22 +1122,22 @@
             "txtForStartingAt": "Starting at ",
             "BasicWithAds": {
               "txtBasicWithAds": "Basic with Ads",
-              "imageurl1": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg", 
+              "imageurl1": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg",
               "content1": "HBO Max app and on demand plan",
-              "imageurl2": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg", 
+              "imageurl2": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg",
               "content2": "Watch with limited ads",
               "imageurl3": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg",
               "content3": "Enjoy must-see series and movies",
               "imageurl4": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg",
               "content4": "Stream on 2 devices at once",
-               "imageurl5": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg",
+              "imageurl5": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_hd-content_blue900.svg",
               "content5": "Full HD resolution"
             },
             "Standard": {
               "txtStandardWithAds": "Standard",
-              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg", 
+              "imageurl1": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg",
               "content1": "HBO Max app, 6 live channels & on-demand",
-              "imageurl2": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg", 
+              "imageurl2": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg",
               "content2": "Stream shows and movies without ads",
               "imageurl3": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg",
               "content3": "Download to watch on the go",
@@ -1145,14 +1145,13 @@
               "content4": "Stream on 2 devices at once",
               "imageurl5": "https://www.directv.com/assets/content/emflgjnpka/svg/ondemand-dark-icon.svg",
               "content5": "Live Sports"
-
             },
             "txtForGifted": {
               "imageurl1": "https://www.directv.com/assets/content/rizflvzhec/svg/Tablert-Icon-Midnight-ECL-Opt-Final.svg",
               "content1": "HBO Max app-only plan",
-              "imageurl2": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg", 
+              "imageurl2": "https://www.directv.com/assets/content/ejjxj7jk2o/svg/fusion-multiview-icon-blue900.svg",
               "content2": "Watch with limited ads",
-              "imageurl3": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg", 
+              "imageurl3": "https://www.directv.com/assets/content/wuq2i7rjgx/svg/Movies-Icon-Midnight-ECL-Opt-Final.svg",
               "content3": "Enjoy must-see series and movies",
               "imageurl4": "https://www.directv.com/dtvassets/global/icons/fusion/fusion_watch-on-tv_blue900.svg",
               "content4": "Stream on 2 devices at once",
@@ -1172,7 +1171,7 @@
           },
           "txtPromoEnds": "Promo ends",
           "txtPromoDuration": "[price] for [duration] months then [planPrice]/mo.",
-          "txtPromoAdditional":  "then [planPrice]/mo.",
+          "txtPromoAdditional": "then [planPrice]/mo.",
           "txtAppleTvDisclaimer4": "",
           "txtAppleTvDisclaimer3": "Existing Apple TV customers subscribing to Apple TV through DIRECTV must activate the new service to migrate billing to DIRECTV. You will receive separate information via email on how to activate your account.",
           "txtNetflixSeeWhatYouGet": {
@@ -1228,7 +1227,7 @@
           "ctaCancelSwitch": "CANCEL SWITCH",
           "txtTitle": "Are you sure?",
           "txtMepDisclaimer1": "Peacock Premium is coming to Movies Extra Pack in October! After the promotional period ends, you will get Movies Extra Pack + Peacock for $9.99/mo., unless you cancel. Enjoy all your favorites PLUS Peacock originals, live sports, blockbuster movies and more on the Peacock app or at peacocktv.com. Account activation required. Check your email for instructions.",
-			    "txtMepDisclaimer2": "<br/>Already have Peacock directly billed through Peacock? You’ll need to cancel your current Peacock plan first. Then, after your subscription has expired, return here to subscribe and have DIRECTV handle your billing. Visit the Help Center <a  href=\"https://www.peacocktv.com/help/article/directv\" target= '_blank'>here</a> for additional details.",
+          "txtMepDisclaimer2": "<br/>Already have Peacock directly billed through Peacock? You’ll need to cancel your current Peacock plan first. Then, after your subscription has expired, return here to subscribe and have DIRECTV handle your billing. Visit the Help Center <a  href=\"https://www.peacocktv.com/help/article/directv\" target= '_blank'>here</a> for additional details.",
           "txtForMepPeacockSaveOffer": "savecustomeroffer",
           "txtForMepPeacockRemoveSaveOffer": "modal save customer offer",
           "mepPlusPeacockContent": {
@@ -1270,7 +1269,7 @@
         "errSnagMsg": "Oops! It's not you. It's us. Something went wrong on our end. Give it a few minutes and try again.",
         "txtRemoveAppleTv": "You successfully removed Apple TV+ from your account.",
         "txtSuccsMsg": "All set! We made your changes!",
-        "txtNewlyAddedAddOnSuccsMsg":"All set! We made your changes. Some channels may take a few minutes to become available on your TV.",
+        "txtNewlyAddedAddOnSuccsMsg": "All set! We made your changes. Some channels may take a few minutes to become available on your TV.",
         "txtSvodAppliedMsg": "Check your email for info about activating your subscription.",
         "txtIncluded": "Included",
         "txtRemovePeacock": "Peacock removed successfully",
@@ -1694,7 +1693,7 @@
           },
           "disneyCustomerDetails": {
             "txtContentTitle": "Disney Customer ID",
-           "txtSubContent": "You may need this ID when contacting customer support. For more information about Disney+, please visit the <a style='color:#2E70BD;' href='https://help.disneyplus.com' target='_blank' data-linkPosition='modalBody' data-linkDestination='https://help.disneyplus.com'  id='Disney+ Help Center'>Disney+ Help Center.</a>",
+            "txtSubContent": "You may need this ID when contacting customer support. For more information about Disney+, please visit the <a style='color:#2E70BD;' href='https://help.disneyplus.com' target='_blank' data-linkPosition='modalBody' data-linkDestination='https://help.disneyplus.com'  id='Disney+ Help Center'>Disney+ Help Center.</a>",
             "txtContentHeader": "Disney Customer Number",
             "txtActivate": "Activate",
             "txtWatch": "Watch",
@@ -1733,7 +1732,7 @@
         }
       }
     },
-    "channelLineUp":{
+    "channelLineUp": {
       "channelLineupSpanishAddons": "https://www.directv.com/dtvassets/sales/directv/upper_funnel/directv/spanish/DIRECTV-via-Satellite-Spanish-Package-Addons.pdf",
       "channelLineupLegacySignaturePkg": "https://www.directv.com/dtvassets/sales/directv/upper_funnel/directv/channel-lineup/DIRECTV-via-Satellite-All-Packages-Channel-Lineup.pdf",
       "channelLineupCurrentSignaturePkg": "https://www.directv.com/channel-lineup/modal/?channels=satellite&pkg=[[PACKAGE_NAME]]&zipcode=[[ZIP_CODE]]",
